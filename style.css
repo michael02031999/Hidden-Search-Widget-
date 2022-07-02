@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(121, 92, 242);
+}
+
+input {
+  display: none;
+  width: 100%;
+  border: none;
+  height: 100%;
+  padding: -5px;
+  outline: none;
+  padding-left: 10px;
+  z-index: 1000;
+  /*height: 30px;*/
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#searchBox {
+  position: relative;
+  width: 35px;
+  height: 35px;
+
+  background-color: white;
+  transition: width 0.25s;
+}
+
+.fa-magnifying-glass {
+  position: absolute;
+  font-size: 17.5px;
+  top: 9px;
+  right: 9px;
+}
